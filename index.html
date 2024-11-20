@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maximilian Keller</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div class="jumping-dots">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <header id="header" class="header">
+      <div class="container container-lg">
+        <div class="header-nav">
+          <a href="#home" class="logo">Maximilian J<span>.</span> Keller</a>
+          <nav id="nav" class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#research" class="nav-link">Research</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <button id="nav-btn" class="nav-btn">
+              <img
+                id="nav-btn-img"
+                src="img/icons/open.svg"
+                alt="Navigation button"
+              />
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container container-lg">
+        <div
+          class="hero-row"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1500"
+          data-aos-duration="1500"
+        >
+          <div class="hero-content">
+            <span class="hero-greeting"> G'day! I'm</span>
+            <h1 class="hero-heading">Max.</h1>
+            <span class="hero-heading-subtitle"
+              >Welcome to my Design and Engineering Portfolio.</span
+            >
+            <div class="about-social-list">
+              <div class="social-links-row">
+                <a href="https://www.linkedin.com/in/maxlkeller/">
+                  <img
+                    src="img/social/linkedin.svg"
+                    alt="Link to linkedin profile"
+                  />
+                </a>
+                
+                <a href="https://github.com/Maxl-K">
+                  <img
+                    src="img/social/github.svg"
+                    alt="Link to GitHub account"
+                  />
+                </a>
+    
+                <a href="https://www.youtube.com/@maxlkeller6079">
+                  <img 
+                    src="img/social/youtube.svg"
+                    alt="Link to Youtube profile"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <a href="#projects" class="btn">My Portfolio</a>
+              <a href="#contact" class="btn btn-white">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img
+              src="img/hero/hero.webp"
+              alt="Picture of me"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-title">
+          <h2 class="title">About Me</h2>
+        </div>
+        <div class="about-row">
+          <div class="about-content">
+            <p class="about-descr">
+              I'm driven to bridge theory with tangible impact in technology. 
+              I strive to tackle challenges that blend software, hardware, and 
+              real-world application.
+              <br />
+              <br />
+              With a recent Master's in Robotics Engineering from UNSW, I specialised in 
+              the control and modelling of robotic systems, including classical control theory
+              and modern methods including deep Neural Networks and Reinforcement Learning methods.
+              <br />
+              <br />
+              Over the past five years, my work has spanned from setting a Guinness World Record 
+              and writing my UG thesis with the UNSW Sunswift solar car team to leading workshops 
+              and tutoring engineering students as a teaching assistant. I've contributed to a range of 
+              projects—working as a research assistant on pedestrian detection in LIDAR point clouds, 
+              a technical assistant and startup coach at UNSW's startup incubator, and as an intern at 
+              Eppendorf South Pacific.
+              <br />
+              <br />
+              In my free time, I enjoy testing the limits of my engineering skills through projects such as 
+              designing and outfitting my 4WD rig for a journey around Australia.
+            </p>
+            <div class="about-download-btn">
+              <a href="CV.pdf" class="btn btn-white">
+                Download CV
+                <img src="img/services/PDF.svg" alt="PDF icon" class="icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="services-row">
+          <div class="service-card" data-aos="fade-down">
+            <img class="service-card-img" src="img/services/robot.svg" alt="robot icon" />
+            <h3 class="service-card-title">Hardware</h3>
+            <p>
+              I am experienced in CAD modelling (Solidworks and Fusion 360), FEA analysis (ANSYS), 
+              metal fabrication, CAM and CNC machining, electrical prototyping and PCB Design.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-down">
+            <img class="service-card-img" src="img/services/software.svg" alt="code icon" />
+            <h3 class="service-card-title">Software</h3>
+            <p>
+              Advanced programming skills in C, C++, Python, MATLAB and extensive experience with 
+              Arduino. Some experience with Assembly for ATMEL™ proccessors, FPGA programming, web design.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-down">
+            <img class="service-card-img" src="img/services/teaching.svg" alt="teaching icon" />
+            <h3 class="service-card-title">Teaching</h3>
+            <p>
+              I've taught UNSW Courses:
+              <a href="https://handbook.unsw.edu.au/undergraduate/courses/2025/MTRN4010?year=2025">MTRN4010</a>, 
+              <a href="https://handbook.unsw.edu.au/undergraduate/courses/2025/MTRN3500">MTRN3500</a>, 
+              <a href="https://handbook.unsw.edu.au/postgraduate/courses/2025/MMAN3200">MMAN3200</a>, 
+              <a href="https://handbook.unsw.edu.au/undergraduate/courses/2025/MMAN1130">MMAN1130</a>, 
+              <a href="https://handbook.unsw.edu.au/undergraduate/courses/2025/DESN1000">DESN1000</a>, 
+              tutored 20+ IB/HSC Mathematics and Physics, coached startups, 80+ university engineering workshops 
+              and High-School Rowing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">Projects</h2>
+        </div>
+        <p class="note">(Tap on each image to read more about the project)</p>
+        <h3 class="project-title">UNSW Sunswift</h3>
+        <br />
+        <div class="projects-row">
+          <div class="project-box" data-modal="modal-sunswift-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Sunswift/01-sunswift.webp" alt="sunswift-world-record" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">"Fastest EV over 1000km (single charge)" World Record (2022)</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-sunswift-02" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Sunswift/02-sunswift.webp" alt="sunswift-chassis-work" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Carbon Fibre Chassis Construction at McConaghy (2020)</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box"  data-modal="modal-sunswift-03" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Sunswift/03-sunswift.webp" alt="sunswift-front-suspension"/>
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Regenerative Suspension UG Thesis Work and Ventilation System</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box"  data-modal="modal-sunswift-04" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Sunswift/04-sunswift.webp" alt="sunswift-airvents"/>
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Cooling System and Ventilation Components</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <h3 class="project-title">Joule Espresso</h3>
+        <br />
+        <div class="projects-row">
+          <div class="project-box" data-modal="modal-joule-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/JouleEspresso/01-joule.webp" alt="peter-farrel-cup-finals" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">"Peter Farrell Cup" 2024 Finalist</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-joule-02" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/JouleEspresso/02-joule.gif" alt="joule-rendering" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Portable Off-Grid Espresso Machine Concept Animation</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box"  data-modal="modal-joule-03" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/JouleEspresso/03-joule.webp" alt="joule-prototype-front"/>
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Portable Off-Grid Coffee Machine Functional Prototype</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box"  data-modal="modal-joule-04" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/JouleEspresso/04-joule.webp" alt="joule-heat-exchanger"/>
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Open View (top) of Heat Exchanger</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <h3 class="project-title">Electric Skateboard</h3>
+        <br />
+        <div class="projects-row">
+          <div class="project-box" data-modal="modal-skateboard-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Skateboard/01-skateboard.webp" alt="beach-shot" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Electric Longboard</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-skateboard-02" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Skateboard/02-skateboard.webp" alt="rendering" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Electric Longboard (CAD Render)</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-skateboard-03" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Skateboard/03-skateboard.webp" alt="underside" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Electric Longboard (Underside)</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-skateboard-04" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Skateboard/04-skateboard.webp" alt="tiled-wall-mounted" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">CNC Machined Motor-mounts</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <h3 class="project-title">Powerblocks</h3>
+        <br />
+        <div class="projects-row">
+          <div class="project-box" data-modal="modal-powerblocks-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Powerblocks/01-powerblocks.webp" alt="individual-units" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Powerblock LiFePo4 Cells Wall Mount</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-powerblocks-02" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Powerblocks/04-powerblocks.webp" alt="release-mechanism" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Battery Release Prototype</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-powerblocks-03" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Powerblocks/03-powerblocks.webp" alt="tiled-wall-mounted" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Tiled Wall Mounted Powerblocks</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-powerblocks-04" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Powerblocks/02-powerblocks.webp" alt="12V-unit-complete" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Completed Prototype Unit</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <h3 class="project-title">4WD Fit-out</h3>
+        <br />
+        <div class="projects-row">
+          <div class="project-box" data-modal="modal-prado-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <div id="image-wrapper-01">
+                <img class="project-img" src="img/works/Prado/01-prado.gif" alt="animation" />
+              </div>
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Interior CAD Animation</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-prado-02" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Prado/02-prado.webp" alt="prado-beach" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Bed Setup</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-prado-03" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Prado/03-prado.webp" alt="aux-switchboard" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Off-grid Accessories</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-prado-04" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Prado/04-prado.webp" alt="12V-junction-box" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">12V System</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <h3 class="project-title">Miscellaneous</h3>
+        <div class="projects-row">
+          <div class="project-box" data-modal="modal-gyrotracker" data-aos="fade-zoom-in">
+              <a href="#!">
+                <img class="project-img" src="img/works/Miscellaneous/01-misc.webp" alt="GyroTracker" />
+                <div class="project-mask">
+                  <div class="project-caption">
+                    <h5 class="white">GyroTracker™</h5>
+                    <p class="white">Goniometric Exercise Tracker Concept and Business Proposal</p>
+                  </div>
+                </div>
+              </a>
+          </div>
+          <div class="project-box" data-modal="modal-efoil-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/02-misc.webp" alt="E-foil Project" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">E-foil Project</h5>
+                  <p class="white">Electric Hydrofoil Motor and Mount</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-seadoo-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/03-misc.webp" alt="Seadoo Speaker Mount" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Seadoo Speaker Mount (front)</h5>
+                  <p class="white">Custom UE Speaker Mount for Seadoo</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-seadoo-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/04-misc.webp" alt="Seadoo Speaker Mount" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Seadoo Speaker Mount (rear)</h5>
+                  <p class="white">Custom UE Speaker Mount for Seadoo</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-seadoo-02" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/14-misc.webp" alt="Seadoo Speaker Mount" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Seadoo Speaker Mount (Installed)</h5>
+                  <p class="white">Custom UE Speaker Mount for Seadoo</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-efoil-02" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/05-misc.webp" alt="E-foil Project" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">E-foil Project</h5>
+                    <p class="white">Electric Hydrofoil Assembled</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-bike-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/06-misc.webp" alt="Vertical Bike Rack" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Vertical Bike Rack</h5>
+                    <p class="white">CAD Close-up</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-bike-02" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/07-misc.webp" alt="Vertical Bike Rack" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Vertical Bike Rack</h5>
+                    <p class="white">Full CAD Model</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-founders-01" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/08-misc.webp" alt="UNSW Founders Startups" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">UNSW Founders Startups</h5>
+                    <p class="white">Prototyping Demo Work for Startups (Showing Charopy, TimeChi and Forcite)</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-founders-02" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/09-misc.webp" alt="Neon Sign" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Neon Sign</h5>
+                    <p class="white">Open-Close Sign for MCIC Makerspace</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-nixie" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/11-misc.webp" alt="Nixie Clock" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Nixie Clock</h5>
+                    <p class="white">Custom Soviet IN-14 Nixie Tube Clock</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-fondue" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/10-misc.webp" alt="Fondue Stand" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Fondue Stand</h5>
+                    <p class="white">Steel and CNC Gum-wood Fondue Stand</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-logger" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/12-misc.webp" alt="Data Logger" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Data Logger</h5>
+                    <p class="white">Arduino Based Data Logger for IMU and Potentiometer Data for Sunswift Car</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-freeform" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Miscellaneous/13-misc.webp" alt="Data Logger" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Freeform CAD Modelling</h5>
+                    <p class="white">Freeform surface body models of car exteriors.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="research">
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">Research</h2>
+        </div>
+        <p class="note">(Tap on each image to read more about the research project)</p>
+        <h3 class="project-title">Selected Works</h3>
+        <br />
+        <div class="projects-row">
+          <div class="project-box" data-modal="modal-thesis" data-aos="fade-zoom-in">
+            <a href="#!">
+              <div id="image-wrapper-02">
+                <img class="project-img" src="img/works/Research/01-research.webp" alt="UG Thesis" />
+              </div>
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">UG Thesis - Regenerative Suspension on Sunswift Solar Car</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-lidar" data-aos="fade-zoom-in">
+            <a href="#!">
+              <img class="project-img" src="img/works/Research/02-research.gif" alt="Research Project" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Research Project - Pedestrian Detection in Point Clouds</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-sentiment" data-aos="fade-zoom-in">
+            <a href="#!">
+              <div id="image-wrapper-02">
+                <img class="project-img" src="img/works/Research/03-research.webp" alt="PG Project" />
+              </div>
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">PG Project - Sentiment Analysis in Financial Tweets</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box" data-modal="modal-segmentation" data-aos="fade-zoom-in">
+            <a href="#!">
+              <div id="image-wrapper-02">
+                <img class="project-img" src="img/works/Research/04-research.webp" alt="PG Project" />
+              </div>
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">PG Project - Semantic Image Segmentation in Outdoor Images</h5>
+                  <p class="white">Click to Read More</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-title">
+          <h2 class="title">Contact</h2>
+        </div>
+        <div class="contact-content">
+          <p>
+            Reach me via email using the form below
+            <br />
+            or book a meeting with me via <a href="https://calendly.com/maximilian-keller-unsw/30min">Calendly</a>.
+          </p>
+        </div>
+    
+        <!-- Form integrated with Formspree -->
+        <form
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        target="_blank"
+        action="https://formspree.io/f/mwpkqpoy"
+        method="POST"
+        >
+        <!-- Formspree hidden inputs for extra functionality -->
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_subject" value="Contact Max through Formspree" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_next" value="index.html#contact" />
+
+        <!-- User input fields -->
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-red">Send Message</button>
+        </form>
+
+      </div>
+      <p>* Form submission will be confirmed in a new window.</p>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="social-links-row footer-social">
+            <a href="https://www.linkedin.com/in/maxlkeller/">
+              <img
+                src="img/social/linkedin.svg"
+                alt="Link to linkedin profile"
+              />
+            </a>
+            
+            <a href="https://github.com/Maxl-K">
+              <img
+                src="img/social/github.svg"
+                alt="Link to GitHub account"
+              />
+            </a>
+
+            <a href="https://www.youtube.com/@maxlkeller6079">
+              <img 
+                src="img/social/youtube.svg"
+                alt="Link to Youtube profile"
+              />
+            </a>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; Maximilian Keller 2024 | Designed using only HTML/CSS/Javascript</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Go-to-top button -->
+
+    <div id="goToTop" class="goToTop">
+      <a href="#home">
+        <img src="img/icons/arrow_up.svg" alt="Back to top"
+      /></a>
+    </div>
+
+    <!-- Modal Pop-ups for project work -->
+
+    <div id="expose-overlay" class="overlay"></div>
+
+    <!--sunswift modals-->
+
+    <div id="modal-sunswift-01" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>UNSW Sunswift VII World Record 2022</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Our student-built solar race car attained the world record for the "fastest 
+          EV over 1000km on a single charge". Sunswift VII features a Carbon Fibre Moncoque 
+          Chassis with Aerodynamic drag coefficient of 0.09. It runs 33.9kWh of Li-Ion Samsung cells
+          and 4.6 square meters of solar panels, powering two 9.3kW in-wheel CSIRO axial flux hub motors.
+          During the record attempt, my role was "Chassis and Bodywork Engineer", representing the Chassis
+          and Bodywork department/sub-team.
+          </p>
+          <br/ >
+          <p>
+            <a href="https://www.abc.net.au/news/2022-12-19/solar-powered-car-unsw-sunswift-7/101790478">
+            Link to ABC news article.
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-sunswift-02" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Body Work and Chassis Design</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          During my time on the team, I learnt how to prepare carbon fibre (wet and pre-preg) parts, helping
+          with the bodywork of the Sunswift VII car. I learnt how to analyse and set up composites FEA simulations
+          using ANSYS Composite prep-post and conduct parametric studies varying the carbon layup.
+          </p>
+          <br />
+          <p>
+            <a href="Final Report.pdf">
+            Read my report on Parametric Composite Modelling for a UNSW FEA course.
+            </a>
+          </p>
+          <br />
+          <p>
+          I also learnt CAD surface modelling for our chassis exterior designs and how to conduct CFD 
+          simulations of our modelled geometries in ANSYS Fluent.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-sunswift-03" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Thesis and Air Ducting</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          During my time on the team, I wrote my UG Thesis paper on 
+          <a href="UG_Thesis_Report.pdf">
+          Modelling and Simulation of Energy Harvesting Electromagnetic Dampers applied to the Sunswift VII Solar car.
+          </a>
+          This photo also shows the air ducting which is optimised for air-flow to the battery an cabin which I designed
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-sunswift-04" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Ventilation Components</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          I designed and manufactured some functional directional air-vents which can withstand the immense heat of the 
+          Australian Outback.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Joule Modals-->
+
+    <div id="modal-joule-01" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Joule Espresso Peter Farrell Cup (PFC) Finalist 2024</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          My pitch at the 
+          <a href="https://unswfounders.com/peter-farrell-cup">
+          PFC
+          </a>
+           Finals Night. As a coffee lover, who couldn't find the perfect barista quality
+          coffee maker to use off-grid whilst driving around Australia, I came up with the idea for "Joule 
+          Espresso" - a portable off-grid coffee machine that makes the perfect cup of coffee from anywhere.
+          <br />
+          <br />
+          <p>
+          The idea is: a temperature and pressure (PID) controlled extraction and steam wand which is 
+          powered by a cheap reusuable LPG can. So a $9 LPG can available from any hardware or camping store 
+          can make up to 80 "lattes" while you're off-grid. Watch the pitch recording 
+          <a href="https://youtu.be/_gj8Iws7VRw?t=3037">
+          here.
+          </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-joule-02" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Ultra-compact "Joule" Coffee Maker Concept Animation</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Animated rendering showing the desired form-factor and compact design for the Joule Coffee Maker.
+          The portafilter, steam wand and other components store securely in the housing to prevent damage.
+          The machine should be able to be transported easily in the boot of a car, tray of a ute etc.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-joule-03" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>The "Joule" Coffee Maker MKI Test Rig</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          This is a working "proof-of-concept" gas-powered coffee machine I built. This set-up shows that it is possible to make up to 80
+          lattes using a BOM style 500g LPG cannister and that the coffee extraction and steam work to produce a delicious coffee. This
+          machine uses a custom Arduino based control circuit to power a  gas burner, heat exchanger, pump, LEDs, buttons and various
+          sensors. Watch the demo video below:
+          </p>
+          <br />
+          <br />
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/sHlclfHG8vo"
+              title="Propane Powered Coffee!"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-joule-04" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>The "Joule" Coffee Maker Heat Exchanger</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Open (top) view of the PID controlled fin-tube heat exchanger used to capture the energy from the gas burner to heat
+          water for coffee extraction and produce steam efficiently.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Skateboard Modals-->
+
+    <div id="modal-skateboard-01" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Electric Longboard Project</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Beach shot of an electric longboard that I built in my first year of uni, showing the custom designed laser-cut grip
+          tape pattern. The board features a homebuilt 10S4P 18650 Li-Ion battery built from recycled Dyson vaccum cleaner 
+          battery packs, two 2500W 190kV brushless DC motors, and has a top speed of 60km/h and range of around 25-30km.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-skateboard-02" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Longbard Project CAD render</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          CAD rendering of the longboard.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-skateboard-03" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Longboard Underside</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          The batery enclosure was modelled in CAD, CNC routed from plywood, then vaccumm formed with 3mm ABS plastic to house
+          the custom battery pack, VESC speed controllers, BMS, receiver and anti spark circuitry. A custom heat sink was CNC 
+          machined to keep the motor controller MOSFETS cool.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-skateboard-04" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>CNC-machined Aluminium Motor Mounts</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          The two beautiful aluminium motor-mounts that were CNC machined from aluminium billet.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Powerblocks Modals-->
+
+    <div id="modal-powerblocks-01" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Powerblocks 12V Re-configurable Wall Mounted Battery Unit</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          <a href="https://powerblocks.au/home">
+          Powerblocks
+          </a>
+           aims to provide simple-to-install, safe, structural batteries for homes and urban areas, 
+           allowing energy storage to take aesthetically pleasing, reliable forms. This picture shows a
+           12V battery hub with AC inverter, a custom built BMS, microcontroller, charger and four slots
+           which connect to four 336kWh LiFePo4 batteries. The housings are made from a durable Glass
+           Fibre Reinfoced Polymer (GFRP) and laser-cut steel outer exoskeleton.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-powerblocks-02" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Powerblocks Locking Mechanism Prototype</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          An early prototype for a Locking and Release Mechanism which securely latches on to each of the battery cells
+          and accomodates space for electrical connections.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-powerblocks-03" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Powerblocks Hidden Between a Concrete Wall and Facial Panels.</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Powerblocks are designed to be abe to be mounted onto walls easily (no certified technician required) and add
+          up to 50kWh of battery storage hidden in plain sight.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-powerblocks-04" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Assembled Powerblocks Prototype Unit</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          An early 12V Powerblocks prototype unit fully assembled.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Prado Modals-->
+
+    <div id="modal-prado-01" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>CAD Animation of Interior Folding Bed</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Animation of the chosen folding bed configuration which allows fior mattress space on top and storage beneath. 
+          The seats were removed from the cabin, a LIDAR scan was taken and various configurations were modelled. This 
+          frame design was built from 25mm aluminium square tube which was TIG welded and bolted to the seat fixtures.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-prado-02" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Prado Interior</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Picture of the interior set-up on a cliff in Western Australia. The right side shows a folding, laser-cut table 
+          made from 316 stainless steel.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-prado-03" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Accessory Switch Panel</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          The car was fitted with a custom air compressor, lights, fridge and 12V battery and charge system. The switches are laser 
+          engraved to appear the same as the OEM switches.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-prado-04" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Auxilary Fuse and Relays</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Water-tight junction box for fuses and relays powering the 12V accessories.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Miscellaneous Modals-->
+
+    <div id="modal-gyrotracker" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>GyroTracker Product Proposal</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+            Squats, a common rehabilitation exercise, can lead to severe damage if not performed correctly. Enter 
+            GyroTracker, a compact Bluetooth-enabled device with on-board gyroscopes and AI software to monitor joint 
+            angles and track repetitions. Unlike camera-based apps and outdated manual tools, GyroTracker offers real-time, 
+            precise feedback through a smartphone app or built-in display, without complex setup.
+          </p>
+        </div>
+        <br />
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/lWVqNPq1b2o" 
+            title="GyroTracker Pitch" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-efoil-01" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Electric Hydrofoil Motor</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          CAD Rendering of the Flipsky brushless motor and mount built for my electric hydrofoil project.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-efoil-02" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Assembled Electric Hydrofoil</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Assembled electric hydrofoil surfboard I built using a Takuma "LOL Foil PRO 1600" Hydrofoil wing and mast,
+          an empty second hand Fliteboard "classic" surfboard and custom machined motor mounts, proppellor and mast
+          mount. This project is currently still a work-in-progress.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-seadoo-01" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Replacement Storage Compartment Cover for Seadoo Spark</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          This lid replaces the OEM staorage compartment cover on a Seadoo Spark and fits a UE Wonderboom Speaker.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-seadoo-02" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Installed Seadoo Spark Speaker Mount</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          This lid replaces the OEM staorage compartment cover on a Seadoo Spark and fits a UE Wonderboom Speaker. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-bike-01" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Steel Vertical 5-bike Rack for MTB Shuttling (close up)</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          This is a design for steel welded vertical bike rack used for Mountainbike Shuttling. Currently still a work-in-progress.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-bike-02" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Steel Vertical 5-bike Rack for MTB Shuttling</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+            This is a design for steel welded vertical bike rack used for Mountainbike Shuttling. Currently still a work-in-progress.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-founders-01" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>UNSW Founders Startup Product Showcase</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Part of a showcase I built in the MCIC makerspace to display the work of some hardware startups I have helped in the 
+          makerspace whilst I was a student at UNSW.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-founders-02" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>MCIC Neon Open/Close Sign</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          A fun LED "Neon" Open/Close sign I built for the MCIC makerspace.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-nixie" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>IN-14 Nixie Tube Desktop Clock</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          A desktop clock built using old stock soviet IN-14 Nixie tubes I bought from Ukraine which I soldered to a custom PCB 
+          (not designed by me) and custom exterior acrylic housing. The Nixie tubes are filled with argon gas and individual 
+          filaments for the digits 0-9 which glow orange to display numbers.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-fondue" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Fondue Stand</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+            Fondue Stand made from Gum-wood on a CNC router and using waterjet cut sheet metal. Holds a pot of Fondue 
+            and a burner underneath.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-logger" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>High Speed Data Logger</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+            High Speed Data Logger I built to collect some data for my thesis study with Sunswift. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-freeform" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Freeform CAD Modelling Experiments</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+            This is an example of a freeform surface body of a car exterior that I modelled whilst experimenting with different
+            surface modelling techniques and learning how to set up CFD simulations whilst working on the UNSW Sunswift solar 
+            car team.
+            <br />
+            <br />
+            Can you guess the design inspiration? :)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Research Work Modals -->
+
+    <div id="modal-thesis" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>
+        UG Thesis - Energy Harvesting Suspension
+        </h3>
+        <br />
+        <div class="modal-text">
+          <p>
+            Exploring the use of Energy Harvesting Shock Absorbers (EHSA) to replace traditional viscous dampers in vehicle 
+            suspensions, capturing electrical energy passively while driving.
+            <br />
+            <br />
+            Simulations for the Sunswift VII car estimated maximum power dissipation of 63.38 W per front damper and 60.56W 
+            per rear damper. Given an efficiency of 30% for state-of-the-art EHSA, around 18-20 W of power could realistically 
+            be harvested. Road tests showed each front damper dissipated about 8.3W at 55 km/h on a smooth course.
+            <br />
+            <br />
+            Notably, the average power dissipation depends only on vehicle speed, road roughness, and tyre damping, and is 
+            unaffected by the vehicle's sprung/unsprung mass or suspension characteristics.
+            <a href="UG_Thesis_Report.pdf">Read my complete thesis paper here.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-lidar" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Taste of Research Scholarship - "Automatic Detection of Objects in Point Clouds"</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          Research Scholarship during my undergraduate year investigating machine learning approaches for detecting moving 
+          pedestrians in point clouds, using low-cost portable LIDAR scanners.
+          <a href="Final_Report_PAM.pdf">Read the report here</a> or watch me present our combined findings at the Digital Twin 
+          Week 2022 Conference:
+          </p>
+        </div>
+        <br />
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/1HVIxY2YbsQ?start=845" 
+            title="DTW 2021: Visualisation Tapas" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-sentiment" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Master's Research - Sentiment Analysis in Financial Tweets</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+          This Master's project explored a variety of classic Reccurrent Neural Network architechtures, including LSTM;
+          and transformer architectures for processing tweets in the 
+          <a href="https://huggingface.co/datasets/takala/financial_phrasebank">Financial-Phrase-Bank Dataset</a> 
+          and classifying their sentiment in regards to a financial entity or stock.
+          <br />
+          <br />
+          The first model uses 300-dimensional GloVe word embeddings for input text, padded to a maximum length of 101 words. 
+          A bidirectional LSTM layer (202 hidden units) feeds into a fully connected layer (100 units), with 3 output nodes 
+          for classification via Softmax. 
+          <a href="https://github.com/Maxl-K/Sentiment_FinancialPhraseBankV2">View the annotated Jupyter Notebook on my Github.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-segmentation" class="modal">
+      <button id="close-btn" class="close-btn">&times;</button>
+      <div class="modal-content">
+        <h3>Master's Research - Semantic Image Segmentation on the WildScenes Dataset</h3>
+        <br />
+        <div class="modal-text">
+          <p>
+            This Master's project explores semantic segmentation using 
+            <a href="https://arxiv.org/abs/1802.02611">DeepLabV3+</a> with different backbone configurations 
+            (ResNet-50 and ResNet-101) to enhance feature extraction capabilities on the 
+            <a href="https://data.csiro.au/collection/csiro:61541">WildScenes 2D benchmark dataset</a>. By analysing 
+            the impact of extracting features from mid- and high-level residual blocks, the study aimed to determine the 
+            optimal balance between capturing fine details and abstract representations. 
+            <a href="https://github.com/Maxl-K/DeepLabV3Plus_WildScenes2D">View the annotated Jupyter Notebook on my Github.</a>
+          </p>
+          <br />
+          <div class="video-wrapper">
+            <iframe 
+              src="https://www.youtube.com/embed/ZAPu99mNxJc" 
+              title="Semantic Image Segmentation using DeepLabV3+" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Animate on Scroll Animations and main JS -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
